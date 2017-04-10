@@ -1,0 +1,10 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font: 13px Helvetica, Arial; }
+form { background: none; padding: 3px; position: fixed; bottom: 0; width: 100%; }
+form input { border: 1; padding: 10px; width: 100%; margin-right:none; }
+form button { width: 99%; background: rgb(219,112,147); border: 1; padding: 10px; }
+#messages { list-style-type: none; margin: 0; padding: 0; }
+#messages li { padding: 5px 10px; }
+#messages li:nth-child(odd) { background: #eee; }
+
+#notifyUser { position: fixed; bottom: 42px; width: 100%; z-index: 1;}
